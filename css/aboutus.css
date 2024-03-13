@@ -1,0 +1,52 @@
+
+h1.topic {
+  background: linear-gradient(to bottom, #020407, #030406);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f8fa;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 37px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: auto;
+  padding: auto;
+}
+
+.container {
+  padding: 70px;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.image{
+  margin-right:490px;
+  margin-top: 10px;
+  width: 700px; 
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #a7a6a6;
+}
+
+
+.text {
+  color: #030202;
+  padding-left: 80px;
+  position:relative;
+  right: 400px;
+  
+}
+
+
+
+.des{
+  font-size: 20px;
+  height: 10px;
+  width: 540px;
+  text-align: justify;
+  
+}
+
+
+

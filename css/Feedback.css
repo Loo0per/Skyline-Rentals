@@ -1,0 +1,211 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.feedback-form {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background-color: #ffffff6f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #2b75ff;
+}
+
+
+.name-group{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.name-group label {
+    position: relative;
+    bottom: 0px;
+    padding: 10px;
+    font-size: 1em;
+    color: #2f90ff;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group-email{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group-email label {
+    position: relative;  
+    padding: 10px;
+    font-size: 1em;
+    color: #2f90ff;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group-vehicle{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group-vehicle label {
+    position: relative;  
+    padding: 10px;
+    font-size: 1em;
+    color: #2f90ff;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.form-group-branch{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.form-group-branch label {
+    position: relative;  
+    padding: 10px;
+    font-size: 1em;
+    color: #2f90ff;
+    transition: all 0.3s ease;
+    
+}
+
+
+.feedback-form-group h3{
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #2b75ff;
+
+}
+
+.rating {
+    direction: rtl; /* Set the direction to right-to-left */
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 40px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '\2605';
+}
+
+.rating input:checked~label {
+    color: #ffcc00;
+}
+
+
+textarea {
+    width: 60%;
+    background-color: #2c2c2c19;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.btn-group {
+    display: flexbox;
+    grid-gap: 10px;
+    align-items: right;
+
+}
+
+.btn-group .btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+
+.btn-group .btn.submit{
+    background-color: #2b75ff;
+    color: #ffffff;
+}
+.btn-group .btn.submit:hover {
+    background-color: #0059ff;
+}
+
+.btn-group .btn.cancel{
+    background-color: #ffffff72;
+    color: #1c73ff;
+}
+.btn-group .btn.cancel:hover {
+    background-color: #9191913e;
+}
+
+
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feedback {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    width: calc(45% - 1px);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.client-info img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.client-info h3 {
+    font-size: 1.2em;
+}
+
+.feedback p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+

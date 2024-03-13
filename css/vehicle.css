@@ -1,0 +1,71 @@
+li.paddi{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.menu2{
+    font-family: Consolas;
+    color:rgb(255, 174, 0);
+    font-size: 40px;
+}
+
+.find{
+    font-family: chiller ;
+    background-color: #678793;
+    text-align: center;
+}
+
+.vehitext{
+    
+    padding: 5px 5px 5px 5px;
+    position: relative;
+  }
+  
+.vehitext{
+    line-height: 1.5;
+    padding: 0 0;
+    list-style-type: none!important;
+  }
+  
+ .vehitext{
+    font-family: FontAwesome;
+    content: "\f138";
+    position: absolute;
+    left : 1em;
+    color: gray;
+    box-sizing:initial;
+  }
+
+
+  .vehipara{
+    
+    position:relative; 
+    left:350px; 
+    top:75px; 
+    
+  }
+
+  
+ 
+
+ .wate{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    position:relative; 
+    left:120px; 
+    top:-10px; 
+  }
+
+  .wate{
+    
+    height: 130px;
+    width: 200px;
+    filter: drop-shadow(5px 5px 5px  gray);
+  }
+
+  .png{
+    margin-right: 30px;
+    width: 20px;
+    height: 30px;
+  }

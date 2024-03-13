@@ -1,0 +1,82 @@
+
+
+
+body {
+	background-image: url("../Images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.change-password-form-div{
+  
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  
+}
+
+.form-header{
+  font-size: 18px;
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.form-content{
+  display: grid;
+  grid-template-columns: 200px 300px;
+  margin-left: 325px;
+  
+}
+
+.form-content .label, .input{
+  margin-bottom: 30px;
+}
+
+.form-content .input{
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  
+}
+
+.form-content .label{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.logoutbuttn{
+	position: relative;
+	left: 1450px;
+	top: 5px;
+	padding: 6px 24px;
+	border: 2px solid black;
+	background-color: transparent;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+
+.input1{
+  padding: 8px 16px;
+  background-color: #0F4C75;
+  color: #fff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #0F4C75;
+  font-size: 16px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+
+.input1:hover{
+  background-color: #fff;
+  color: #0F4C75;
+
+}
+
+
+

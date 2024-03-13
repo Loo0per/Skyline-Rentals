@@ -1,0 +1,45 @@
+/*Inserting the styles to the body*/ 
+.contain {
+    font-family: Arial, sans-serif;
+    background-image: url("/Users/sunerumihiranga/Documents/Skyline Rental/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*Inserting the styles into the form */ 
+form {
+    background-color: #fdfdfd;
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

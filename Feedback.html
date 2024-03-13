@@ -1,0 +1,176 @@
+<!-- Sachin -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Skyline Rentals</title>
+		<link rel="stylesheet" type="text/css" href="css/headerfooter.css">
+        <link rel="stylesheet" type="text/css" href="css/sitemap.css">
+        <link rel="stylesheet" type="text/css" href="css/Feedback.css">
+        
+        <script src="feedback.js"></script>
+
+        
+
+
+	</head>
+	<body>
+        <header>	
+            <h1 class="head1">Skyline Rentals</h1>
+            <hr id="top">
+            <img src="images/logo.jpg" alt="skyline logo" class="logo">
+            <ul class="menu1">
+                <li><a href="" class="list1">Language</a></li>
+                <li><a href="Feedback.html" class="list1">Feedbacks</a></li>
+                <li><a href="Contact us.html" class="list1">Contact us</a></li>
+                <li><a href="aboutus.html" class="list1">About us</a></li>
+            </ul>
+            <a href="login.php"><button class="loginbuttn">Sign in/Register</button></a>
+            <hr id="bot"><br>
+            <ul class="menu2">
+                <li><a href="home.html" class="list2">Home</a></li>
+                <li><a href="Reservation.php" class="list2">Resevartion</a></li>
+                <li><a href="vehicle.html" class="list2">Vehicles</a></li>
+                <li><a href="Location.html" class="list2">Locations</a></li>
+            </ul><br>
+            <hr class="hr3"><br><br>
+        </header>
+        <main>
+
+            <div class="feedback-form">
+                <h1>Feedback & Review </h1>
+                <form action="Feedback.php" method="post">
+                    <div class="name-group">
+                    <div class="first name-group"></div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required> 
+                    </div>   
+
+                    <div class="last name-group">
+                         <label for="last-name">Last Name</label>
+                         <input type="text" id="last-name" name="last-name" required>
+                    </div>
+
+                    <div class="form-group-email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group-vehicle">
+                        <label for="vehicle-type">Vehicle Type</label>
+                        <select id="vehicle-type" name="vehicle-type" required>
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Honda vesal">Honda vesal</option>
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="WagonR">WagonR</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group-branch">
+                        <label for="branch-type">Branch Type</label>
+                        <select id="branch-type" name="branch-type" required>
+                            <option value="Colombo">Colombo</option>
+                            <option value="Kandy">Kandy</option>
+                            <option value="Jaffna">Jaffna</option>
+                        
+                        </select>
+                    </div>
+
+                    <div class="feedback-form-group">
+                        <h3> How is the Skyline Rental Service </h3>
+                        <div class="rating" id="rating">
+                            <input type="radio" id="star1" name="rating" value="5"><label for="star1"></label>
+                            <input type="radio" id="star2" name="rating" value="4"><label for="star2"></label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                            <input type="radio" id="star4" name="rating" value="2"><label for="star4"></label>
+                            <input type="radio" id="star5" name="rating" value="1"><label for="star5"></label>
+                        </div>
+                        <div id="feedback"></div>
+                     
+                    <textarea name="option" cols="30" row="5" placeholder="Your feedback...."></textarea>
+                    <div class="btn-group">
+                        <button type="submit" class="btn submit" name="submit"> Submit </button>
+                        <button type="cancel" class="btn cancel"> Cancel </button>
+                    </div>  
+                    <br><br>  
+
+
+
+
+                    <div class="feedback-container">
+                        <div class="feedback">
+                            <div class="client-info">
+                                <img src="Images/Feedback_image01.png" alt="Client 1">
+                                <h3>John Doe</h3>
+                            </div>
+                            <p>Smooth Ride, Smoother Experience!<br> Renting from Skyline Rental was a breeze! The car was clean, and the whole process was seamless. Definitely coming back for my next trip!</p>
+                        </div>
+                    
+                        <div class="feedback">
+                            <div class="client-info">
+                                <img src="Images/Feedback_image03.png" alt="Client 2">
+                                <h3>Jane Smith</h3>
+                            </div>
+                            <p>Top-Notch Fleet and Fantastic Service!<br> I was blown away by the variety of vehicles Skyline Rental offers. From luxury sedans to rugged SUVs, they've got it all. The staff were friendly and helpful throughout.</p>
+                        </div>
+                    
+                        <div class="feedback">
+                            <div class="client-info">
+                                <img src="Images/Feedback_image02.png" alt="Client 3">
+                                <h3>Michael John</h3>
+                            </div>
+                            <p>A+ Customer Care!<br> I had a minor issue during my rental, but Skyline Rental went above and beyond to resolve it. Their customer service team was prompt and efficient. Truly impressed!</p>
+                        </div>
+                    
+                        <div class="feedback">
+                            <div class="client-info">
+                                <img src="Images/Feedback_image04.png" alt="Client 4">
+                                <h3>Sarah Williams</h3>
+                            </div>
+                            <p>Family-Friendly Excellence!<br> Traveling with kids can be a challenge, but Skyline Rental made it a breeze. They provided a child seat and even had a selection of family-friendly vehicles. Such a relief!</p>
+                        </div>
+                    </div>
+
+
+
+
+                </form>
+            </div>
+
+
+            
+        </main>    
+			
+		<footer style="margin-top: 200px;">
+			<hr class="hr3">
+			<h2 style="font-family: cursive; font-size: 30px; margin-left: 30px; color:midnightblue ;">Skyline Rentals</h2>
+			<div class="footerimg">
+				<img src="Images/facebook.png" style="margin-right: 30px;">
+				<img src="Images/twitter.png">
+				<img src="Images/youtube.png" style="margin-left: 30px;">
+			</div>
+			<div class="footercontact">
+				<p>+44 20 7946 0156 – Michel</p>
+				<p>+44 20 7946 0142 – Jhon</p>
+				<p>admin@skyline.com</p>
+				<p>Addres:9503, New Street,
+						  London,
+						  SE69 5XE</p>
+			</div>
+			<div class="copyright">
+				<p>​© 2023 The Skyline Rentals Corporation. </p>
+			</div>
+			
+			<div class="footerlist">
+				<ul>
+					<li class="flitems"><a href="" class="list1">Terms of use</a></li>
+					<li class="flitems"><a href="" class="list1">Privacy policy</a></li>
+					<li class="flitems"><a href="sitemap.html" class="list1">Site Map</a></li>
+				</ul>
+			</div>
+			
+		</footer>
+		
+	</body>	
+</html>

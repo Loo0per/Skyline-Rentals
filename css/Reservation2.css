@@ -1,0 +1,215 @@
+.form{
+    width: 650px ;
+    margin-left:500px;
+}
+
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    margin: 0 10px;
+
+}
+.form-text h1{
+    color: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text p{
+    color: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: 1px solid #33fbf4;;
+    font-size: 20px;
+    color: #000000;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main-form div select{
+    width: 104%;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    border: 1px solid #33fbf4;;
+    font-size: 20px;
+    color: #0a0a0a;
+    outline: none;
+    padding: 3px 0 3px 0px;
+    margin-top: 20px;
+}
+.main-form div span{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: cyan !important;
+    color: black !important;
+    transition: all .3s;
+}
+#submit input:hover{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: black !important;
+    color: #000000 !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #000000 !important;
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}
+#existingReservations, #deleteSection {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#existingReservations h2, #deleteSection h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#reservationList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reservationList li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#deleteSection input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#deleteSection input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#deleteSection input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#updateSection {
+    margin-top: 20px;
+}
+
+#updateSection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#updateSection form div {
+    margin-bottom: 15px;
+}
+
+#updateSection form div span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#updateSection form div input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#updateSection form div#submit input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#updateSection form div#submit input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#payment{
+    width: 100%;
+    text-align: center;
+}
+#payment input{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: cyan !important;
+    color: black !important;
+    transition: all .3s;
+}
+#payment input:hover{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    background-color: black !important;
+    color: #000000 !important;
+}
+#payment input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #000000 !important;
+}

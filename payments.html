@@ -1,0 +1,87 @@
+<!-- Suneru -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Payment Details</title>
+        <link rel="stylesheet" href="css/payments.css">
+        <link rel="stylesheet" href="css/headerfooter.css">
+		
+	</head>
+	<body>
+        <header>	
+            <h1 class="head1">Skyline Rentals</h1>
+            <hr id="top">
+            <img src="images/logo.jpg" alt="skyline logo" class="logo">
+            <ul class="menu1">
+                <li><a href="" class="list1">Language</a></li>
+                <li><a href="Feedback.php" class="list1">Feedbacks</a></li>
+                <li><a href="Contact us.html" class="list1">Contact us</a></li>
+                <li><a href="aboutus.html" class="list1">About us</a></li>
+            </ul>
+            <a href="login.php"><button class="loginbuttn">Sign in/Register</button></a>
+            <hr id="bot"><br>
+            <ul class="menu2">
+                <li><a href="home.php" class="list2">Home</a></li>
+                <li><a href="Reservation.php" class="list2">Resevartion</a></li>
+                <li><a href="vehicle.html" class="list2">Vehicles</a></li>
+                <li><a href="Location.html" class="list2">Locations</a></li>
+            </ul><br>
+            <hr class="hr3"><br><br>
+        </header>
+        <main>
+            <div class="contain">
+            <form method="post" action="payment.php">
+                <label for="card_number">Card Number</label>
+                <input type="text" name="card_number" id="card_number" required>
+                <br>
+        
+                <label for="Name_on_card">Name on Card</label>
+                <input type="text" name="Name_on_card" id="Name_on_card" required>
+                <br>
+        
+                <label for="expiry_date">Expiry Date (MM/YY)</label>
+                <input type="date" name="expiry_date" id="expiry_date" required>
+                <br>
+        
+                <label for="cvv">CVV</label>
+                <input type="text" name="cvv" id="cvv" required>
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Submit Payment">
+            </form>
+        </div>
+        </main>    
+			
+		<footer style="margin-top: 200px;">
+			<hr class="hr3">
+			<h2 style="font-family: cursive; font-size: 30px; margin-left: 30px; color:midnightblue ;">Skyline Rentals</h2>
+			<div class="footerimg">
+				<img src="Images/facebook.png" style="margin-right: 30px;">
+				<img src="Images/twitter.png">
+				<img src="Images/youtube.png" style="margin-left: 30px;">
+			</div>
+			<div class="footercontact">
+				<p>+44 20 7946 0156 – Michel</p>
+				<p>+44 20 7946 0142 – Jhon</p>
+				<p>admin@skyline.com</p>
+				<p>Addres:9503, New Street,
+						  London,
+						  SE69 5XE</p>
+			</div>
+			<div class="copyright">
+				<p>​© 2023 The Skyline Rentals Corporation. </p>
+			</div>
+			
+			<div class="footerlist">
+				<ul>
+					<li class="flitems"><a href="" class="list1">Terms of use</a></li>
+					<li class="flitems"><a href="" class="list1">Privacy policy</a></li>
+					<li class="flitems"><a href="sitemap.html" class="list1">Site Map</a></li>
+				</ul>
+			</div>
+			
+		</footer>
+		
+	</body>	
+</html>
